@@ -36,6 +36,6 @@ $(function(){
 		$('#menuBtn').removeClass('close');
 	});
 	$('h1.ourmission').hide().fadeIn(10000);
-	$('span.large').hide().fadeIn(100);
+	$('span.large').hide().fadeIn(50);
 });
 

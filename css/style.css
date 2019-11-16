@@ -154,6 +154,29 @@ section h2{
 
 /* pavillion
 ------------------------------------------------------------*/
+#pavillion {
+	width: 60%;
+	margin: auto;
+}
+
+.pavillion-contents {
+	width: 100%;
+}
+
+.pavillion-first {
+	width: 100%;
+}
+
+.pavillion-first img {
+	width: 100%;
+	height: 400px;
+}
+
+
+.pavillion-second {
+	width: 100%;
+}
+
 .ourpavillion {
 	font-weight: bold;
 }
