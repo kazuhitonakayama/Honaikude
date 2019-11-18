@@ -35,9 +35,9 @@ $(function(){
 		$(this).next().slideToggle();
 		$('#menuBtn').removeClass('close');
 	});
-	$('h1.ourmission').hide().fadeIn(10000);
+	$('h1.ourmission').hide().fadeIn(5000);
 	$('span.large').hide().fadeIn(50);
-	$('h1.logo-top').hide().fadeIn(10000);
+	$('h1.logo-top').hide().fadeIn(5000);
 	$('div.pavillion-first-title').hide().fadeIn(5000);
 	$('div.pavillion-first-text').hide().fadeIn(10000);
 	$('div.pavillion-second-title').hide().fadeIn(5000);

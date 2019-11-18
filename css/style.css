@@ -92,11 +92,25 @@ span.large {
 	}
 }
 
+@media screen and (max-width:640px){
+	.ourmission {
+		font-size: 2em;
+	}
+
+	span.large {
+		font-size: 1.3em;
+	}
+}
+
 /* message-area 
 -----------------------------------------------------------*/
 .message-text span {
 	background: #fff;
 	color: #333;
+}
+
+#message-area {
+	padding-top: 10px;
 }
 
 /* フッター
@@ -119,7 +133,7 @@ img{
 
 section{
 	clear:both;
-	padding-top: 70px;
+	padding-top: 100px;
 }
 
 section.message-area {
@@ -235,6 +249,32 @@ section h2{
 	font-weight: bold;
 }
 
+@media screen and (max-width:640px) {
+	#pavillion {
+		width: 100%;
+	}
+
+	.pavillion-first {
+		height: 600px;
+	}
+
+	.pavillion-second {
+		height: 600px;
+	}
+
+	.pavillion-second-text {
+		top: 54%;
+	}
+
+	.pavillion-first-text {
+		font-size: 1.2em;
+	}
+
+	.pavillion-second-text {
+		font-size: 1.2em;
+	}
+}
+
 
 /* vote
 ------------------------------------------------------------*/
@@ -267,11 +307,35 @@ section h2{
 
 .votestatus:after {
 	content: '宇宙';
+	writing-mode: vertical-rl;
+	text-orientation: upright;
 	position: absolute;
 	top: 35%;
-	right: -15%;
+	right: -12%;
 	font-size: 1.5em;
 	font-weight: bold;
+}
+
+@media screen and (max-width:640px) {
+	#vote {
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.votestatus {
+		width: 90%;
+		height: 70px;
+	}
+
+	.votestatus:before {
+		left: 5%;
+		top: 20%;
+	}
+
+	.votestatus:after {
+		right: 5%;
+		top: 25%;
+	}
 }
 /* Message from Leaders
 ------------------------------------------------------------*/
@@ -349,16 +413,24 @@ section h2{
 
 .leader-1-textarea {
 	width: 50%;
+	padding-top: 15%;
 }
 
 .leader-2-textarea {
 	width: 50%;
+	padding-top: 15%;
 }
 
 .leader-3-textarea {
 	width: 50%;
+	padding-top: 15%;
 }
 
+@media screen and (max-width:640px) {
+	.leadersmessage-contentarea {
+		width: 90%;
+	}
+}
 
 /* links
 ------------------------------------------------------------*/
@@ -380,7 +452,14 @@ section h2{
 	border-radius: 30px;
 }
 
-/* SEC04 BRAND
+@media screen and (max-width: 640px) {
+ .members p a ,
+ .meetings p a {
+	margin: 0px 1px;
+}
+}
+
+/* footer BRAND
 ------------------------------------------------------------*/
 .col3 img{
 	display: block;
@@ -398,17 +477,16 @@ section h2{
 	background: #f6f6f6;
 }
 
-#sec04_02{
+#footer-img{
 	background: url(../images/footer.jpg) no-repeat 100% 100% fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
+	background-position: center;
 	text-align: center;
 	padding: 220px 20px;
 }
 
-#sec04_02 img{
-	width: auto;
-}
+
 
 
 /*  Contact us
@@ -482,7 +560,8 @@ section.contact header h2 span {
 	#mainnav li{
 		display: inline-block;
 		padding: 50px 25px;
-		font-size: 15px;
+		font-size: 1.3em;
+		font-family: 'Pacifico', cursive;
 	}
 	
 	
@@ -540,9 +619,6 @@ section.contact header h2 span {
 	#map iframe{
 		width: 96% !important;
 		left: 2%;
-	}
-	#sec04_02{
-		padding: 50px 20px;
 	}
 }
 
@@ -685,13 +761,9 @@ section.contact header h2 span {
 		margin: 50px auto 0 auto;
 		display: block;
 	}
-	section{
-		padding-top: 50px;
-	}
+
 	section h2{
 		margin: 0 auto 20px;
-	}
-	section h2 span {
-		padding: 0 30px;
+		width: 90%;
 	}
 }
