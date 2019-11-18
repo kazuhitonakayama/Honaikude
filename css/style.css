@@ -165,7 +165,7 @@ section h2{
 
 .pavillion-first {
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	background-image: url(../images/death.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -176,7 +176,7 @@ section h2{
 
 .pavillion-first img {
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
 
 .pavillion-first-title ,
@@ -240,6 +240,11 @@ section h2{
 ------------------------------------------------------------*/
 #vote {
 	width: 100%;
+	margin: 50px 0px;
+}
+
+#vote header h2 span{
+	font-size: 1.7em;
 }
 
 .votestatus {
@@ -270,6 +275,15 @@ section h2{
 }
 /* Message from Leaders
 ------------------------------------------------------------*/
+#leadersmessage {
+	width: 100%;
+	margin: 50px 0px;
+}
+
+#leadersmessage header h2 span {
+	font-size: 1.7em;
+}
+
 .leadersmessage-contentarea {
 	width: 60%;
 	margin: auto;
@@ -295,19 +309,19 @@ section h2{
 }
 
 .leader-1-imagearea {
-	width: 30%;
+	width: 200px;
 	height: 300px;
 	text-align: center;
 }
 
 .leader-2-imagearea {
-	width: 30%;
+	width: 200px;
 	height: 300px;
 	text-align: center;
 }
 
 .leader-3-imagearea {
-	width: 30%;
+	width: 200px;
 	height: 300px;
 	text-align: center;
 }
@@ -348,6 +362,10 @@ section h2{
 
 /* links
 ------------------------------------------------------------*/
+#links header h2 span{
+	font-size: 1.7em;
+}
+
 #links .inner ul {
 	display: flex;
 	justify-content: center;
